@@ -190,7 +190,3 @@ Built with Arvin Jakkamreddy, with help from interns on manual form labeling.
 ## License
 
 Copyright (c) 2025 Karthik Kaligotla and Arvin Jakkamreddy. All rights reserved. The source is published for review only; no license is granted. See [LICENSE](LICENSE).
-
-## Author
-
-Developed by [Karthik Kaligotla](https://github.com/risingOnIP), named inventor on U.S. Patents [12,445,488 B2](https://patents.google.com/patent/US12445488B2/) and [12,598,158 B2](https://patents.google.com/patent/US12598158B2/).
