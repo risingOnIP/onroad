@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="OnroadAI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.55" stop-color="#111827" stop-opacity="1"/>
+      <stop offset="0.75" stop-color="#111827" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#grid)"/>
+  <g>
+    <line x1="1034" y1="210" x2="1034" y2="239" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1034" y1="210" x2="1065" y2="192" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1222" y1="55" x2="1140" y2="55" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1222" y1="55" x2="1161" y2="118" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1034" y1="239" x2="1068" y2="269" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="914" y1="244" x2="979" y2="284" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="914" y1="244" x2="909" y2="139" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1078" y1="224" x2="1065" y2="192" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1078" y1="224" x2="1068" y2="269" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="909" y1="139" x2="959" y2="47" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1068" y1="269" x2="1066" y2="285" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1140" y1="55" x2="1142" y2="114" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1140" y1="55" x2="1161" y2="118" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1142" y1="114" x2="1161" y2="118" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="959" y1="47" x2="1063" y2="126" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="1161" y1="118" x2="1156" y2="176" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="1034" cy="210" r="13" fill="#B45309" fill-opacity="0.12"/>
+    <circle cx="1034" cy="210" r="7" fill="#B45309"/>
+    <circle cx="1222" cy="55" r="9" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1222" cy="55" r="3" fill="#2563EB"/>
+    <circle cx="1034" cy="239" r="9" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1034" cy="239" r="3" fill="#2563EB"/>
+    <circle cx="914" cy="244" r="9" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="914" cy="244" r="3" fill="#2563EB"/>
+    <circle cx="1078" cy="224" r="10" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1078" cy="224" r="4" fill="#2563EB"/>
+    <circle cx="909" cy="139" r="9" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="909" cy="139" r="3" fill="#2563EB"/>
+    <circle cx="979" cy="284" r="11" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="979" cy="284" r="5" fill="#2563EB"/>
+    <circle cx="1068" cy="269" r="11" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1068" cy="269" r="5" fill="#2563EB"/>
+    <circle cx="1140" cy="55" r="10" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1140" cy="55" r="4" fill="#2563EB"/>
+    <circle cx="1142" cy="114" r="10" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1142" cy="114" r="4" fill="#2563EB"/>
+    <circle cx="959" cy="47" r="9" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="959" cy="47" r="3" fill="#2563EB"/>
+    <circle cx="1161" cy="118" r="11" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1161" cy="118" r="5" fill="#2563EB"/>
+    <circle cx="1156" cy="176" r="11" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1156" cy="176" r="5" fill="#2563EB"/>
+    <circle cx="1066" cy="285" r="11" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1066" cy="285" r="5" fill="#2563EB"/>
+    <circle cx="1065" cy="192" r="9" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1065" cy="192" r="3" fill="#2563EB"/>
+    <circle cx="1063" cy="126" r="9" fill="#2563EB" fill-opacity="0.12"/>
+    <circle cx="1063" cy="126" r="3" fill="#2563EB"/>
+  </g>
+  <rect width="1280" height="320" rx="18" fill="url(#fade)" fill-opacity="0.85"/>
+  <rect x="0" y="56" width="8" height="208" fill="#15803D"/>
+  <text x="72" y="128" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#F9FAFB">OnroadAI</text>
+  <text x="72" y="176" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#CBD5E1">A real estate transaction platform where realtors, brokers,</text>
+  <text x="72" y="208" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#CBD5E1">and clients run deals, forms, and e-signatures in one place.</text>
+  <rect x="72" y="248" width="128" height="32" rx="16" fill="#15803D" fill-opacity="0.18" stroke="#15803D" stroke-width="1.5"/>
+  <text x="136.0" y="269" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2" fill="#F9FAFB">PRODUCTION</text>
+  <rect x="212" y="248" width="99" height="32" rx="16" fill="#2563EB" fill-opacity="0.18" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="261.5" y="269" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2" fill="#F9FAFB">NEXT.JS</text>
+  <rect x="323" y="248" width="137" height="32" rx="16" fill="#2563EB" fill-opacity="0.18" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="391.5" y="269" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2" fill="#F9FAFB">REAL ESTATE</text>
+</svg>

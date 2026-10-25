@@ -1,0 +1,92 @@
+/* Hybrid PDF Form Editor Styles */
+
+/* PDF document container */
+.pdf-document {
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+    vertical-align: top;
+  }
+  
+  /* Ensure PDF pages are properly positioned */
+  .react-pdf__Page {
+    position: relative;
+    display: block;
+    line-height: 0;
+    vertical-align: top;
+  }
+  
+  /* PDF canvas should maintain its natural dimensions */
+  .react-pdf__Page__canvas {
+    display: block;
+    position: relative;
+    z-index: 1;
+    /* Remove responsive sizing to prevent squishing */
+    /* max-width: 100%; */
+    /* height: auto; */
+  }
+  
+  /* Container needs to be positioned relatively for absolute canvas overlay */
+  .pdf-container {
+    position: relative;
+    display: inline-block;
+    /* Ensure container fits content exactly */
+    line-height: 0;
+    isolation: isolate;
+    vertical-align: top;
+    overflow: hidden;
+  }
+  
+  /* Ensure annotations and text layers don't interfere */
+  .react-pdf__Page__textContent,
+  .react-pdf__Page__annotations {
+    z-index: 2 !important;
+  }
+  
+  /* Fabric canvas overlay positioning */
+  .fabric-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100 !important;
+  }
+  
+  /* Fabric.js creates two canvases - upper and lower */
+  .upper-canvas,
+  .lower-canvas {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 100 !important;
+  }
+  
+  /* Fabric.js canvas container */
+  .canvas-container {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  
+  /* Field hover effects */
+  .pdf-field-hover {
+    cursor: move;
+    transition: opacity 0.2s ease;
+  }
+  
+  .pdf-field-hover:hover {
+    opacity: 0.9;
+  }
+  
+  /* Signature field styles */
+  .signature-field-container {
+    background: rgba(230, 245, 230, 0.8);
+    border: 2px dashed #4ade80;
+    border-radius: 4px;
+    padding: 8px;
+    position: relative;
+  }
+  
+  /* Field selection indicator */
+  .field-selected {
+    box-shadow: 0 0 0 2px #3b82f6;
+  }
